@@ -33,3 +33,28 @@
 .title{
     width: 40%;
 }
+
+@media screen and (min-width:300px) and (max-width:480px) {
+    .card{
+        display:flex; 
+        /* border-style: solid;
+        border-color: red; */
+        flex-direction: column;
+        margin-top: 1%;
+        align-items: center;
+    }
+    .card img{
+        
+        width: 100%;
+        
+    }
+    .foto{
+        width: 50%;
+    }
+    .title{
+        width: 90%;
+    }
+    .card_ul{
+        width: 90%;
+    }
+}

@@ -31,3 +31,47 @@
     font-size: 1.5rem;
     
 }
+
+@media screen and (min-width:300px) and (max-width:480px) {
+
+    .footer{
+        display: flex;
+        /* border: 2px solid red; */
+        margin: 2% ;
+    }
+    .uno_ul{
+    
+        justify-content: flex-start; 
+    }
+    .uno_ul li{
+        display:inline;
+        
+        font-size: 1rem;
+    }
+    .uno img{
+        width: 50%;
+    }
+    .uno{
+        width: 25%;
+    }
+    
+    .dos{
+        margin-left: 5%;
+    }
+    .tres{
+        margin-left: 5%;
+    }
+    .cuatro{
+        margin-left: 5%;
+    }
+    .cuatro p{
+        font-size: 1rem;
+        
+    }
+    .uno p{
+        font-size: 13px;
+    }
+    .dos h3{
+        font-size: 1rem;
+    }
+}

@@ -24,3 +24,25 @@
     margin-left: 10%;
     font-size: 2rem;
 }
+
+
+@media screen and (min-width:300px) and (max-width:480px) {
+    .principal{
+        margin: 3% 5%;
+        display: flex;
+    }
+    
+    .principal_h1{
+        font-size: 1.7rem;
+        
+    }
+    .principal_img{
+        width: 60%;
+        margin-left: 15%;
+        display: none;
+    }
+    .principal_p2{
+        font-size: 0.9rem;
+    }
+
+}
