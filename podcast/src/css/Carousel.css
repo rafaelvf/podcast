@@ -1,0 +1,26 @@
+.carousel{
+    width: 33%;
+    height: 100%;
+    background-color: white;
+    padding:.5% 3%;
+    /* border: 2px solid red; */
+    border-radius: 5px;
+    
+}
+.buttons_menu6{
+    margin-top: 2%;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    padding: 2% 7%;
+    border-radius: 3px;
+    border-color: #F13C45;
+    color: #F13C45;
+    margin-bottom: 2%;
+}
+.carousel h1{
+    text-align: left;
+}
+.carousel_p{
+    color: #F13C45;
+}

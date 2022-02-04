@@ -1,0 +1,9 @@
+.blog{
+    margin: 5% 17%;
+}
+.blog h1{
+    text-align: center;
+}
+.blog_carousel{
+    display: flex;
+}

@@ -1,0 +1,35 @@
+.card{
+    display:flex; 
+    /* border-style: solid;
+    border-color: red; */
+    margin-top: 1%;
+    align-items: center;
+}
+.card img{
+    margin: 10%;
+    width: 55%;
+    
+}
+.card_ul{
+        width: 33%;
+    }
+
+.card_ul ul li{
+    list-style-type: none;
+    color: rgb(185, 183, 183);
+}
+.foto{
+    width: 33%;
+}
+.buttons_menu4{
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    padding: 2% 4%;
+    border-radius: 3px;
+    border-color: #F13C45;
+    color: #F13C45;
+}
+.title{
+    width: 40%;
+}

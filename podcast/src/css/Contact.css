@@ -1,0 +1,36 @@
+.contact{
+    margin: 3% 30%;
+    /* border: 2px solid red; */
+}
+.contact h1{
+    text-align: center;
+    
+}
+.contact p{
+    text-align: center;
+    padding: 0% 3%;
+}
+.buttons_menu_subs{
+    background-color: #F13C45;
+    border-style: solid;
+    border-width: 1px;
+    padding: 1% 5%;
+    border-radius: 3px;
+    border-color: #F13C45;
+    color: white;
+    margin-right: 5%;
+    height: 2rem;
+}
+.contact_input{
+    /* margin:auto;
+    width: 30%; */
+    padding-bottom: 1%;
+}
+.contact_input input{
+    background-color: gainsboro;
+    border-color: gainsboro;
+    width: 60%;
+    height: 2rem;
+    border: none;
+    margin-left: 9%;
+}
