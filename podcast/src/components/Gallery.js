@@ -21,7 +21,7 @@ function Gallery() {
 
     return pages && pages.length ?(
         <div>
-            <h1 className='gallery_h1'>Our Gallery</h1>
+            <h1 className='gallery_h1'>Our Gallerys</h1>
         <div className='gallery'>
             {pages.map((i)=>{
                 return(
