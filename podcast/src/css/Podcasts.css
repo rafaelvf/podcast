@@ -34,7 +34,7 @@
 }
 
 
-@media screen and (min-width:300px) and (max-width:480px) {
+@media screen and (min-width:300px) and (max-width:768px) {
     .podcast_section2{
         margin-left: 5%;
         margin-right: 5%;

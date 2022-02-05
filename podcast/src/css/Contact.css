@@ -35,7 +35,7 @@
     margin-left: 9%;
 }
 
-@media screen and (min-width:300px) and (max-width:480px) {
+@media screen and (min-width:300px) and (max-width:768px) {
     .contact{
         margin: 3% 6%;
         /* border: 2px solid red; */
@@ -43,7 +43,7 @@
     .contact_input input{
         background-color: gainsboro;
         border-color: gainsboro;
-        width: 53%;
+        width: 50%;
         height: 2rem;
         border: none;
         margin-left: 9%;

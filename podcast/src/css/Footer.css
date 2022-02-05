@@ -7,6 +7,9 @@
     
     white-space:nowrap; 
 }
+.uno_ul_mobile{
+    display: none;
+}
 .uno_ul li{
     display:inline;
     margin-left: 5%;
@@ -32,15 +35,15 @@
     
 }
 
-@media screen and (min-width:300px) and (max-width:480px) {
+@media screen and (min-width:300px) and (max-width:768px) {
 
     .footer{
         display: flex;
         /* border: 2px solid red; */
-        margin: 2% ;
+        margin: 5% 4% ;
     }
     .uno_ul{
-    
+        display: none;
         justify-content: flex-start; 
     }
     .uno_ul li{
@@ -49,6 +52,7 @@
         font-size: 1rem;
     }
     .uno img{
+        margin-top: 25%;
         width: 50%;
     }
     .uno{
@@ -57,12 +61,15 @@
     
     .dos{
         margin-left: 5%;
+        width: 25%;
     }
     .tres{
         margin-left: 5%;
+        width: 25%;
     }
     .cuatro{
         margin-left: 5%;
+        width: 25%;
     }
     .cuatro p{
         font-size: 1rem;
@@ -72,6 +79,22 @@
         font-size: 13px;
     }
     .dos h3{
-        font-size: 1rem;
+        font-size: 0.7rem;
+    }
+    .tres h3{
+        font-size: 0.7rem;
+    }
+    .cuatro h3{
+        font-size: 0.7rem;
+    }
+    .dos p{
+        font-size: 13px;
+    }
+    .tres p{
+        font-size: 13px;
+    }
+    .uno_ul_mobile{
+        display: flex;
+
     }
 }

@@ -24,6 +24,16 @@ function Footer() {
                         <FaSkype />
                     </li>
                 </ul>
+
+                <div className='uno_ul_mobile'>
+                <p><FaFacebookF /></p>
+                <p><FaInstagram /></p>
+                <p><FaLinkedinIn /></p>
+                <p><FaSkype /></p>
+
+                </div>
+
+
             </div>
 
             <div className='dos'>
