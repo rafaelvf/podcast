@@ -1,18 +1,18 @@
 .header{
     background-color: rgb(231, 229, 229);
     width: 100%;
-    height: 80vh;
+    height: 100%;
     
     
 }
 #podcast{
     
     width: 100%;
-    height: 110vh;
+    height: 100%;
 }
 .ct{
     background-color: rgb(241, 239, 239);
-    border: 2px solid red;
+    
 }
 @media screen and (min-width:300px) and (max-width:480px) {
     .header{
@@ -24,6 +24,6 @@
     #podcast{
     
         width: 100%;
-        height: 230vh;
+        height: 100%;
     }
 }

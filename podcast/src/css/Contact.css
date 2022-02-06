@@ -34,6 +34,11 @@
     border: none;
     margin-left: 9%;
 }
+.span{
+    font-weight: 'bold';
+    color: #F13C45;
+    margin-left: 9%;
+}
 
 @media screen and (min-width:300px) and (max-width:768px) {
     .contact{
@@ -47,5 +52,24 @@
         height: 2rem;
         border: none;
         margin-left: 9%;
+    }
+}
+@media screen and (min-width:769px) and (max-width:1040px) {
+    .contact{
+        margin: 3% 11%;
+        /* border: 2px solid red; */
+    }
+    .contact_input input{
+        background-color: gainsboro;
+        border-color: gainsboro;
+        width: 50%;
+        height: 2rem;
+        border: none;
+        margin-left: 15%;
+    }
+    .span{
+        font-weight: 'bold';
+        color: #F13C45;
+        margin-left: 15%;
     }
 }

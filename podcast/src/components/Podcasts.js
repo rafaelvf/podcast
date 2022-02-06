@@ -3,6 +3,7 @@ import '../css/Podcasts.css'
 import Cards from './Cards';
 import {useSelector,useDispatch} from "react-redux";
 import {GET_PODCAST} from '../redux/actions'
+import { Link } from 'react-router-dom';
 
 
 function Podcasts() {
@@ -20,7 +21,10 @@ function Podcasts() {
     return podcast && podcast.length ?(
         <div className='podcast_section2'>
             <h1 className='h1_podcasts'>Latest Podcast Episodes</h1>
+
+            <Link to={"/podcasts"}>
             <button className='buttons_menu3'>View All</button>
+            </Link>
 
             {podcast.map((i,idx)=>{               
                 if(idx<=2){
@@ -34,7 +38,7 @@ function Podcasts() {
             }
             )}
 
-            <button className='buttons_menu5'>Show more episodes</button>
+            {/* <button className='buttons_menu5'>Show more episodes</button> */}
         </div>
     ):null;
 }

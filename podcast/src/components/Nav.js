@@ -8,16 +8,18 @@ function Nav() {
             
             <img src={logo} alt='NicaSource'/>
             <div className='menu'>
-                <a href="#" className='a'>Home</a>
-                <a href="#" className='a'>About</a>
-                <a href="#" className='a'>Episode</a>
-                <a href="#" className='a'>Blog</a>
-                <a href="#" className='a'>Contact</a>
+                <a href="/" className='a'>Home</a>
+                {/* <a href="#" className='a'>About</a> */}
+                <a href="#podcast" className='a'>Episode</a>
+                <a href="#blog" className='a'>Blog</a>
+                <a href="#footer" className='a'>Contact</a>
             </div>
 
             <div className='botones_menu'>
-            <button className='buttons_menu'>Subscribe</button>
-            <button className='buttons_menu2'>Sing-In</button>
+            <a href='#subcribe' className='boton_m'>
+            Subscribe
+            {/* <button className='buttons_menu2'>Sing-In</button> */}
+            </a>
             </div>
         </div>
     );

@@ -31,3 +31,13 @@ export const GET_IMAGES=()=>{//esta action me trae todos los paises.
                 payload: res.data,
             })
             }}
+
+            export const GETBLOGID=(id)=>{//buscando por path params un id
+    
+                return async function (dispatch){
+                    const res= await axios.get(`http://localhost:3001/countries/${id}`);
+                dispatch({
+                    type: ActionTypes.COUNTRYBY_ID,
+                    payload: res.data,
+                })
+                }}

@@ -3,8 +3,9 @@
     display: flex;
 }
 .principal_img{
-    width: 60%;
+    width: 70%;
     margin-left: 15%;
+    margin-top: 18%;
 }
 .principal_p{
     color: #0B2342;
@@ -45,4 +46,24 @@
         font-size: 0.9rem;
     }
 
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .principal{
+        margin: 3% 5%;
+        display: flex;
+    }
+    
+    .principal_h1{
+        font-size: 1.7rem;
+        
+    }
+    .principal_img{
+        width: 60%;
+        margin-top: 19%;
+        
+    }
+    .principal_p2{
+        font-size: 0.9rem;
+    }
 }

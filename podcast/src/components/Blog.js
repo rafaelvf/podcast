@@ -4,6 +4,7 @@ import Carousela from './Carousel';
 import Carousel from 'react-elastic-carousel';
 import {useSelector,useDispatch} from "react-redux";
 import {GET_BLOGS} from '../redux/actions'
+import { Link } from "react-router-dom";
 
 function Blog() {
 
@@ -27,8 +28,9 @@ function Blog() {
                 { posts.map((i)=>{
 
                         return(
-
-                        <Carousela key={i.id} date={i.acf.date} author={i.acf.authot} source={i.acf.source} title={i.title.rendered} content={i.acf.summary}  />
+                            
+                            
+                        <Carousela id={i.id} key={i.id} date={i.acf.date} author={i.acf.authot} source={i.acf.source} title={i.title.rendered} content={i.acf.summary}  />
                         
                         )
                 })}

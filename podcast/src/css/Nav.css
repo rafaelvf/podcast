@@ -38,7 +38,7 @@
     background-color: #F13C45;
     border-style: solid;
     border-width: 1px;
-    padding: 3% 10%;
+    padding: 10% 20%;
     border-radius: 3px;
     border-color: #F13C45;
     color: white;
@@ -53,6 +53,16 @@
     border-color: #F13C45;
     color: #F13C45;
 }
+.boton_m{
+        
+    text-decoration: none;
+    border: 1px solid #F13C45 ;
+    border-radius: 3px;
+    padding: 5% 9%;
+    background-color: #F13C45;
+    color: white;
+    font-size: 1rem;
+}
 
 @media screen and (min-width:300px) and (max-width:480px) {
 
@@ -65,7 +75,7 @@
         align-items: center;
         
         justify-content: space-between; */
-        border: 2px solid red;
+        /* border: 2px solid red; */
     }
 
     .nav img{
@@ -83,11 +93,21 @@
         width: 25%;
         right: 15%;
     }
+    .boton_m{
+        
+        text-decoration: none;
+        border: 1px solid #F13C45 ;
+        border-radius: 3px;
+        padding: 5% 10%;
+        background-color: #F13C45;
+        color: white;
+        font-size: .7rem;
+    }
     .buttons_menu{
         background-color: #F13C45;
         border-style: solid;
         border-width: 1px;
-        padding: 3% 4%;
+        padding: 3% 10%;
         border-radius: 3px;
         border-color: #F13C45;
         color: white;

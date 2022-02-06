@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../css/Cards.css'
 import coding from '../img/coding.jpg'
 
@@ -16,7 +17,9 @@ function Cards(props) {
             <div className='title'>
                 <h1>{title}</h1>
                 <p>{content}</p>
+                <Link to={"/podcasts"}>
                 <button className='buttons_menu4'>Know more</button>
+                </Link>
             </div>
             <div className='card_ul'>
                 <ul>

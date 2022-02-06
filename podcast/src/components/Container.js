@@ -32,9 +32,9 @@ function Container() {
                 <Contact/>
             </section>
 
-            <Footer>
-                
-            </Footer>
+            <section id='footer'>
+                <Footer/>
+            </section>
         </div>
     );
 }

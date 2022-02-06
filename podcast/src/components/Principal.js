@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/Principal.css";
 import { FaSpotify, FaGoogle, FaApple } from "react-icons/fa";
-import podcast from '../img/poscast.png'
+import podcast from '../img/podcast.png'
 
 function Principal() {
   return (
